@@ -31,7 +31,7 @@ await server.start();
 //app.use("/record", records);
 // Specify the path to mount the server
 app.use(
-    '/graphql',
+    '/api',
     cors(),
     express.json(),
     expressMiddleware(server),
